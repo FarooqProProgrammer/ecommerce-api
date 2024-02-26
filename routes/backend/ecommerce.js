@@ -7,6 +7,7 @@ var router = express.Router();
 
 
 router.post('/add-product',Ecommerce.AddProduct)
+router.get('/get-product',Ecommerce.getProduct)
 
 
 
